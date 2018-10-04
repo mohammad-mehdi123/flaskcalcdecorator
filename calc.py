@@ -16,7 +16,7 @@ def inverse(f):
         return f(*arg,**kwargs)
     return wrapper
 
-
+#lknfewrkf
 @app.route("/calc", methods=['POST'])
 @inverse
 def calculator():
